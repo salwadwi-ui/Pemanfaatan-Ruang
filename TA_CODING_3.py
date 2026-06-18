@@ -29,7 +29,7 @@ from google.oauth2 import service_account
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SCOPES    = ["https://www.googleapis.com/auth/drive"]
-FOLDER_ID = st.secrets.get("FOLDER_ID", "")
+FOLDER_ID = st.secrets.get("FOLDER_ID", "1dTdLnvUyRgFDKCSLLKH83ZOb2fou0Mci")
 
 TEMP_DIR = pathlib.Path(tempfile.gettempdir()) / "webgis_cache"
 TEMP_DIR.mkdir(exist_ok=True)
